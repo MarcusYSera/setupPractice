@@ -1,13 +1,44 @@
 Basic yarn add script for eslint w/ prettier for react-app
 
-add .eslintrc.json and .prettierrc.json files on top layer of project
+add .eslintrc
+
+ {
+  "extends": [
+    "react-app",
+    "airbnb",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "jsx-a11y",
+    "prettier"
+  ],
+  "rules": {
+    "semi": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "prettier/prettier": [
+      "error", {
+        "semi": false
+      }
+    ]
+  }
+}
 
 download these under dev dependencies: 
 
-  yarn add -D eslint prettier 
-  yarn add -D babel-eslint eslint-config-prettier eslint-plugin-import eslint-plugin-json eslint-plugin-prettier eslint-plugin-react
+yarn add -D eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier prettier
 
 shift command p 
   developer:reload window
 
 check App.js page for prettier check mark and eslint connection on bottom dashboard
+
+doc: 
+  https://medium.com/@pppped/extend-create-react-app-with-airbnbs-eslint-config-prettier-flow-and-react-testing-library-96627e9a9672
+
+prettier options/rules: 
+  https://prettier.io/docs/en/options.html
+
+eslint rules: 
+  https://eslint.org/docs/rules/
