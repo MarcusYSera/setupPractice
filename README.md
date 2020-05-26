@@ -2,7 +2,7 @@ Basic yarn add script for eslint w/ prettier for react-app
 
 add .eslintrc
 
- {
+{
   "extends": [
     "react-app",
     "airbnb",
@@ -10,16 +10,19 @@ add .eslintrc
     "prettier",
     "prettier/react"
   ],
-  "plugins": [
-    "jsx-a11y",
-    "prettier"
-  ],
+  "plugins": ["jsx-a11y", "prettier"],
   "rules": {
-    "semi": 0,
+    "semi": 1,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "prettier/prettier": [
-      "error", {
-        "semi": false
+      "error",
+      {
+        "tabWidth": 2,
+        "singleQuote": true,
+        "semi": true,
+        "trailingComma": "es5",
+        "printWidth": 85,
+        "arrowParens": "always"
       }
     ]
   }
