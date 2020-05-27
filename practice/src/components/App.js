@@ -3,9 +3,9 @@ import React from 'react';
 const App = () => {
   return (
     <div>
-      <h1 /> world SETUP TEest</h1>
+      <h1>SETUP Test</h1>
     </div>
-  )
-}
+  );
+};
 
 export default App;
