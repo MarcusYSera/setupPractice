@@ -32,7 +32,7 @@ add .prettierrc
 
 download these under dev dependencies: 
 
-touch .eslintrc; yarn add -D eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier prettier
+touch .prettierrc; touch .eslintrc; yarn add -D eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier prettier
 
 shift command p 
   developer:reload window
