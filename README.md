@@ -14,23 +14,25 @@ add .eslintrc
   "rules": {
     "semi": 1,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "prettier/prettier": [
-      "error",
-      {
-        "tabWidth": 2,
-        "singleQuote": true,
-        "semi": true,
-        "trailingComma": "es5",
-        "printWidth": 85,
-        "arrowParens": "always"
-      }
-    ]
+    "prettier/prettier": ["error"]
   }
 }
 
+add .prettierrc
+
+{
+  "tabWidth": 2,
+  "singleQuote": true,
+  "semi": true,
+  "trailingComma": "es5",
+  "printWidth": 85,
+  "arrowParens": "always"
+}
+
+
 download these under dev dependencies: 
 
-yarn add -D eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier prettier
+touch .eslintrc; yarn add -D eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier prettier
 
 shift command p 
   developer:reload window
