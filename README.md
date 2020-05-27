@@ -1,3 +1,5 @@
+Create React App template and practice with eslint & prettier setup
+
 Basic yarn add script for eslint w/ prettier for react-app
 
 add .eslintrc
