@@ -1,6 +1,8 @@
 Create React App template and practice with eslint & prettier setup
 
-Basic yarn add script for eslint w/ prettier for react-app
+download these under dev dependencies: 
+
+touch .prettierrc; touch .eslintrc; yarn add -D eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier prettier; cd src; touch index.js; mkdir components; cd components; touch App.js; cd ../..
 
 add .eslintrc
 
@@ -31,10 +33,6 @@ add .prettierrc
   "arrowParens": "always"
 }
 
-
-download these under dev dependencies: 
-
-touch .prettierrc; touch .eslintrc; yarn add -D eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier prettier
 
 shift command p 
   developer:reload window
