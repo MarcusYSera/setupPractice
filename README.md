@@ -1,8 +1,7 @@
 <h2 align="center">Basic Boiler Plates:</h2>
 
+<p align="center">react:</p>
 <p align="left">
-react:
-  <br />
   <br />
   · Resets SRC directory and sets up basic index.js and App.js to display
   <br />
@@ -15,8 +14,9 @@ react:
   <br />
 <br />
 <br />
-reactredux:
-  <br />
+</p>
+<p align="center">reactredux:</p>
+<p align="left">
   <br />
   · Uses the base React Boiler Plate and incorporates Redux, Thunk, and Axios along with basic actions and reducers
   <br />
