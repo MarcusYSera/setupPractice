@@ -1,7 +1,8 @@
 <h2 align="center">Basic Boiler Plates:</h2>
 
 <p align="left">
-React:
+react:
+  <br />
   <br />
   · ESLint
   <br />
@@ -10,13 +11,16 @@ React:
   · Resets SRC directory and sets up basic index.js and App.js to display
 <br />
 <br />
-React w/ Redux:
+reactredux:
+  <br />
   <br />
   · Axios
   <br />
   · Redux
   <br />
+  <span style="margin-left: 40px">
     · React-Redux
+  </span>
   <br />
   · Thunk
   <br />
