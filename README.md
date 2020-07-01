@@ -18,7 +18,7 @@ reactredux:
   <br />
   · Redux
   <br />
-  <span style="margin-left: 40px">
+  <span style="text-indent: 40px">
     · React-Redux
   </span>
   <br />
