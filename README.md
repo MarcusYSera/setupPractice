@@ -3,7 +3,7 @@
 <p align="center">
 <em>
 React:
-  ESLint
+  · ESLint
   Prettier
   Resets SRC directory and sets up basic index.js and App.js to display
 </em>
