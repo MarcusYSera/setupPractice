@@ -4,26 +4,31 @@
 react:
   <br />
   <br />
+  · Resets SRC directory and sets up basic index.js and App.js to display
+  <br />
+  <br />
+  Dependencies/DevDependencies:
+  <br />
   · ESLint
   <br />
   · Prettier
   <br />
-  · Resets SRC directory and sets up basic index.js and App.js to display
 <br />
 <br />
 reactredux:
   <br />
   <br />
+  · Uses the base React Boiler Plate and incorporates Redux, Thunk, and Axios along with basic actions and reducers
+  <br />
+  <br />
+  Dependencies/DevDependencies:
+  <br />
   · Axios
   <br />
   · Redux
   <br />
-  <span style="text-indent: 40px">
-    · React-Redux
-  </span>
-  <br />
   · Thunk
   <br />
-  · Uses the base React Boiler Plate and incorporates Redux, Thunk, and Axios along with basic actions and reducers
+  <br />
   <br />
 </p>
