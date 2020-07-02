@@ -1,9 +1,11 @@
 <h2 align="center">Basic Boiler Plates:</h2>
-
-<p align="center">React:</p>
-<p align="left">
+<br />
+<h5 align="center">React:</h5>
   <br />
-  · Resets SRC directory and sets up basic index.js and App.js to display
+  <p align="center">
+  Resets SRC directory and sets up basic index.js and App.js to display
+  </p>
+<p align="left">
   <br />
   <br />
   Dependencies/DevDependencies:
@@ -15,7 +17,7 @@
 <br />
 <br />
 </p>
-<p align="center">React w/ Redux:</p>
+<h5 align="center">React w/ Redux:</h5>
 <p align="left">
   <br />
   · Uses the base React Boiler Plate and incorporates Redux, Thunk, and Axios along with basic actions and reducers
