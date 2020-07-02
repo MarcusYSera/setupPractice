@@ -19,9 +19,9 @@
 <h3 align="center">React w/ Redux:</h3>
   <br />
   <p align="center">
-  Incorporates the above boiler plate and adds Redux, Thunk, and Axios along with basic actions and reducers setup
+  Incorporates the above boiler plate and adds Redux, Thunk, Axios, Actions, and Reducers
   </p>
-<p align="left">
+<p align="left" style="font-weight:'bold'">
   Dependencies/DevDependencies:
   <br />
   · Axios
