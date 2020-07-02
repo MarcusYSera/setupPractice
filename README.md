@@ -24,11 +24,9 @@
 <p align="left">
   Dependencies/DevDependencies:
   <br />
-  *Axios
-  <br />
-  *Redux
-  <br />
-  *Thunk
+  * Axios
+  * Redux
+  * Thunk
   <br />
   <br />
   <br />
