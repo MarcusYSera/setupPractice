@@ -6,7 +6,6 @@
   Resets SRC directory and sets up basic index.js and App.js to display
   </p>
 <p align="left">
-  <br />
   Dependencies/DevDependencies:
   <br />
   · ESLint
@@ -16,12 +15,13 @@
 <br />
 <br />
 </p>
+
 <h3 align="center">React w/ Redux:</h3>
+  <br />
+  <p align="center">
+  Incorporates the above boiler plate and adds Redux, Thunk, and Axios along with basic actions and reducers setup
+  </p>
 <p align="left">
-  <br />
-  · Uses the base React Boiler Plate and incorporates Redux, Thunk, and Axios along with basic actions and reducers
-  <br />
-  <br />
   Dependencies/DevDependencies:
   <br />
   · Axios
