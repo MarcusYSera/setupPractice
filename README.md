@@ -21,7 +21,7 @@
   <p align="center">
   Incorporates the above boiler plate and adds Redux, Thunk, Axios, Actions, and Reducers
   </p>
-<p align="left">
+<!-- <p align="left"> -->
   Dependencies/DevDependencies:
   <br />
   * Axios
@@ -30,4 +30,4 @@
   <br />
   <br />
   <br />
-</p>
+<!-- </p> -->
