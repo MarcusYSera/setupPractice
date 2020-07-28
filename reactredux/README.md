@@ -1,1 +1,1 @@
-yarn add redux react-redux axios redux-thunk
+`yarn add redux react-redux axios redux-thunk`

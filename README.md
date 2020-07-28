@@ -8,7 +8,7 @@
 * ESLint
 * Prettier
 
-## React w/ Redux:
+## [React w/ Redux:](./reactredux)
 
 >Incorporates the above boiler plate and adds Redux, Thunk, Axios, Actions, and Reducers
 
