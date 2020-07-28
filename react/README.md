@@ -2,15 +2,15 @@ Create React App template and practice with eslint & prettier setup
 
 run these scripts to create fresh barebones project: 
 
-  npx create-react-app practice; cd practice; rm README.md; rm -rf src; mkdir src; touch .prettierrc; touch .eslintrc; cd src; touch index.js; mkdir components; cd components; touch App.js; cd ../..; 
+  `npx create-react-app practice; cd practice; rm README.md; rm -rf src; mkdir src; touch .prettierrc; touch .eslintrc; cd src; touch index.js; mkdir components; cd components; touch App.js; cd ../..;`
 
 need these for eslint w/ prettier: 
 
-  yarn add -D eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier prettier;
+  `yarn add -D eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier prettier;`
 
 add to .eslintrc
 
-{
+`{
   "extends": [
     "react-app",
     "airbnb",
@@ -24,18 +24,18 @@ add to .eslintrc
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "prettier/prettier": ["error"]
   }
-}
+}`
 
 add to .prettierrc
 
-{
+`{
   "tabWidth": 2,
   "singleQuote": true,
   "semi": true,
   "trailingComma": "es5",
   "printWidth": 85,
   "arrowParens": "always"
-}
+}`
 
 shift command p 
   developer:reload window
