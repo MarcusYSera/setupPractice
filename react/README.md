@@ -42,11 +42,8 @@ shift command p
 
 check App.js page for prettier check mark and eslint connection on bottom dashboard
 
-doc: 
-  https://medium.com/@pppped/extend-create-react-app-with-airbnbs-eslint-config-prettier-flow-and-react-testing-library-96627e9a9672
+[Reference doc](https://medium.com/@pppped/extend-create-react-app-with-airbnbs-eslint-config-prettier-flow-and-react-testing-library-96627e9a9672)
 
-prettier options/rules: 
-  https://prettier.io/docs/en/options.html
+[prettier options/rules](https://prettier.io/docs/en/options.html)
 
-eslint rules: 
-  https://eslint.org/docs/rules/
+[eslint rules](https://eslint.org/docs/rules/)
