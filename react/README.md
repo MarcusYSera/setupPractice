@@ -1,14 +1,14 @@
-Create React App template and practice with eslint & prettier setup
+## Create React App template and practice with eslint & prettier setup
 
-run these scripts to create fresh barebones project: 
+### run these scripts to create fresh barebones project: 
 
   `npx create-react-app practice; cd practice; rm README.md; rm -rf src; mkdir src; touch .prettierrc; touch .eslintrc; cd src; touch index.js; mkdir components; cd components; touch App.js; cd ../..;`
 
-need these for eslint w/ prettier: 
+### need these for eslint w/ prettier: 
 
   `yarn add -D eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier prettier;`
 
-add to .eslintrc
+### add to .eslintrc
 
 `{
   "extends": [
@@ -26,7 +26,7 @@ add to .eslintrc
   }
 }`
 
-add to .prettierrc
+### add to .prettierrc
 
 `{
   "tabWidth": 2,
@@ -37,10 +37,10 @@ add to .prettierrc
   "arrowParens": "always"
 }`
 
-shift command p 
+**shift command p** 
   developer:reload window
 
-check App.js page for prettier check mark and eslint connection on bottom dashboard
+**check App.js page for prettier check mark and eslint connection on bottom dashboard**
 
 [Reference doc](https://medium.com/@pppped/extend-create-react-app-with-airbnbs-eslint-config-prettier-flow-and-react-testing-library-96627e9a9672)
 
